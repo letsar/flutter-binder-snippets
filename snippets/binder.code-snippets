@@ -1,0 +1,38 @@
+{
+  "create LogicRef": {
+    "scope": "dart",
+    "prefix": "lref",
+    "description": "Creates a new LogicRef with its Logic class",
+    "body": [
+      "final ${1}Ref = LogicRef((scope) => ${1/(.*)/${1:/capitalize}/}(scope));",
+      "",
+      "class ${1/(.*)/${1:/capitalize}/} with Logic {",
+      "  const ${1/(.*)/${1:/capitalize}/}(this.scope);",
+      "",
+      "  @override",
+      "  final Scope scope;",
+      "",
+      "  $2",
+      "}",
+      ""
+    ]
+  },
+  "create StateRef": {
+    "scope": "dart",
+    "prefix": "sref",
+    "description": "Creates a new StateRef with its initial state",
+    "body": [
+      "final ${1}Ref = StateRef($2);",
+    ]
+  },
+  "create Computed": {
+    "scope": "dart",
+    "prefix": "cref",
+    "description": "Creates a new Computed with its state builder",
+    "body": [
+      "final ${1}Ref = Computed((watch){",
+      "  $2",
+      "});",
+    ]
+  },
+}
