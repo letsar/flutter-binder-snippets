@@ -3,7 +3,7 @@
 Flutter Binder Snippets is a way to enhance the way you use Binder. It contains a collection of different
 snippets such as `lref`.
 
-![lref](media/lref.gif)
+![lref][lref]
 
 ## Snippets
 
@@ -37,3 +37,6 @@ vscode: ^1.50.0
 ### 1.0.0
 
 Initial release of Flutter Binder Snippets
+
+<!-- Links -->
+[lref]: https://raw.githubusercontent.com/letsar/flutter-binder-snippets/main/media/lref.gif
