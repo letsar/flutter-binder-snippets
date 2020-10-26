@@ -2,6 +2,7 @@
     "name": "flutter-binder-snippets",
     "displayName": "Flutter Binder Snippets",
     "description": "Quick and easy Binder snippets",
+    "publisher": "romain-rastel",
     "icon": "media/icon.png",
     "homepage": "https://github.com/letsar/flutter-binder-snippets",
     "license": "SEE LICENSE IN LICENSE",
