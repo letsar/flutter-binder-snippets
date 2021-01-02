@@ -42,6 +42,10 @@ vscode: ^1.50.0
 
 ## Release Notes
 
+### 1.2.0
+
+Added Consumer and StateListener snippets.
+
 ### 1.0.0
 
 Initial release of Flutter Binder Snippets
