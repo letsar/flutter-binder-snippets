@@ -35,4 +35,30 @@
       "});",
     ]
   },
+  "create StateListener": {
+    "scope": "dart",
+    "prefix": "bdr_state_listener",
+    "description": "Creates a StateListener widget",
+    "body": [
+      "StateListener<$1>(",
+      "  watchable: $2,",
+      "  onStateChanged: (context, state) {",
+      "    $3",
+      "  },",
+      ")",
+    ]
+  },
+  "create Consumer": {
+    "scope": "dart",
+    "prefix": "bdr_consumer",
+    "description": "Creates a Consumer widget",
+    "body": [
+      "Consumer<$1>(",
+      "  watchable: $2,",
+      "  builder: (context, state, child) {",
+      "    return $3;",
+      "  },",
+      ")",
+    ]
+  },
 }
